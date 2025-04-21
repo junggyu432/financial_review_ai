@@ -1,0 +1,40 @@
+# This is a mock uv.lock file manually created from requirements.txt
+[[package]]
+name = "pandas"
+version = "*"
+
+[[package]]
+name = "openpyxl"
+version = "*"
+
+[[package]]
+name = "xlrd"
+version = "*"
+
+[[package]]
+name = "jinja2"
+version = "*"
+
+[[package]]
+name = "pdfkit"
+version = "*"
+
+[[package]]
+name = "python-dotenv"
+version = "*"
+
+[[package]]
+name = "google-generativeai"
+version = "*"
+
+[[package]]
+name = "crewai"
+version = "*"
+
+[[package]]
+name = "pydantic"
+version = "*"
+
+[[package]]
+name = "argparse"
+version = "*"

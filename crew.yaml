@@ -1,0 +1,11 @@
+# crew.yaml
+crew:
+  name: "재무제표 분석 크루"
+  description: "엑셀 기반 재무제표 파일을 분석하고 AI 보고서를 생성하는 자동화 워크플로우"
+  agents:
+    - path: financial_statement_analysis/tools/crew_agent_loader.py
+    - path: financial_statement_analysis/tools/crew_agent_analyzer.py
+    - path: financial_statement_analysis/tools/crew_agent_reporter.py
+  entrypoint:
+    path: financial_statement_analysis/main.py  # ← 여기만 main.py로 수정!
+   

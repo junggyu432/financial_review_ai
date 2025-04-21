@@ -1,0 +1,10 @@
+pandas
+openpyxl
+xlrd
+jinja2
+pdfkit
+python-dotenv
+google-generativeai
+crewai
+pydantic
+argparse

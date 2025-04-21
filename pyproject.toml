@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "financial_review_a1"
+version = "0.1.0"
+description = "CrewAI 기반 재무제표 분석 자동화 프로젝트"
+dependencies = [
+    "pandas",
+    "openpyxl",
+    "xlrd",
+    "jinja2",
+    "pdfkit",
+    "python-dotenv",
+    "google-generativeai",
+    "crewai",
+    "pydantic"
+]
