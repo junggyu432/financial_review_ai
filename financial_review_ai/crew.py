@@ -2,7 +2,7 @@ import logging
 import argparse
 from dotenv import load_dotenv
 from crewai import Crew, Task
-from financial_statement_analysis.settings import settings
+from financial_statement_analysis.config.settings import settings
 from financial_statement_analysis.tools.crew_agent_loader import data_loader_agent
 from financial_statement_analysis.tools.crew_agent_analyzer import analyzer_agent
 from financial_statement_analysis.tools.crew_agent_reporter import reporter_agent
